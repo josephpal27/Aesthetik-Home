@@ -7,7 +7,7 @@
 }
 
 ::selection{
-    background-color: #71e34f;
+    background-color: #ffb765;
     color: #fff;
 }
 
@@ -17,12 +17,13 @@ nav {
   /* background: #141414 !important; */
   font-family: "Montserrat", sans-serif !important;
   font-weight: 500 !important;
-  position: absolute !important;
-  top: 0;
+  /* position: absolute !important; */
+  /* top: 0; */
   z-index: 100;
-  width: 100%;
+  /* width: 100%; */
   border-bottom: 1px solid #d3d3d33b;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fff !important;
 }
 .navbar-nav {
   text-align: center;
@@ -30,16 +31,18 @@ nav {
 .navbar-nav .nav-link,
 .navbar-brand,
 .navbar-toggler-icon {
-  color: #fff !important;
+  color: #f8a31c !important;
   text-transform: uppercase;
   font-size: 0.9rem;
 }
 .nav-link.active {
-  color: rgb(54, 210, 7) !important;
+  /* color: rgb(54, 210, 7) !important; */
+  color: rgb(254, 186, 0) !important;
   font-weight: 700 !important;
 }
 .navbar-nav .nav-link:hover{
-  color: #32c107 !important;
+  /* color: #32c107 !important; */
+  color: rgb(254, 186, 0) !important;
 }
 
 /* Dropdown Styling */
@@ -84,7 +87,8 @@ nav {
 /* Button Styling */
 .navbar .contact-btn {
   margin-left: 1rem;
-  background-color: #2fa30c;
+  /* background-color: #2fa30c; */
+  background-color: #f8a31c;
   color: #fff;
   font-family: "Montserrat", sans-serif !important;
   border: none;
@@ -96,9 +100,9 @@ nav {
   transition: all 0.2s ease-in-out;
 }
 .navbar .contact-btn:hover {
-  color: #31b509;
-  background-color: #fff;
-  scale: 1.03;
+  /* color: #31b509; */
+  background-color: #ec9100;
+  transform: translateY(-4px);
 }
 .navbar .contact-btn i {
   margin-right: 0.3rem;
@@ -118,14 +122,14 @@ nav {
 }
 .banner-content .content-box{
     position: absolute;
-    top: 20%;
+    top: 10%;
     color: #fff;
 }
 .banner-content .content-box h5{
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    background-image: linear-gradient(transparent, transparent, rgb(3, 193, 3));
+    background-image: linear-gradient(transparent, transparent, rgb(255, 183, 0));
     width: fit-content;
     padding: 0.3rem 1rem;
     border-radius: 7px;
@@ -146,31 +150,32 @@ nav {
 }
 .banner-content .content-box button{
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.9rem;
     text-transform: uppercase;
     border: none;
     padding: 0.7rem 1.5rem;
     background-color: #fff;
-    color: #2fa30c;
+    /* color: #2fa30c; */
+    color: #f8a31c;
     border-radius: 8px;
     margin-top: 1rem;
     transition: all 0.2s ease;
 }
 .banner-content .content-box button:hover{
-    background-color: #2fa30c;
+    background-color: #f8a31c;
     color: #fff;
     transform: translateY(-5px);
 }
 .banner-content .content-box #cnt-btn{
-    background-color: #2fa30c;
+    background-color: #f8a31c;
     color: #fff;
     margin-right: 0.6rem;
     padding: 0.73rem 1.5rem;
 }
 .banner-content .content-box #cnt-btn:hover{
     background-color: #fff;
-    color: #2fa30c;
+    color: #f8a31c;
     transform: translateY(-5px);
 }
 /* Top Banner Section Ends Here */
@@ -195,7 +200,8 @@ nav {
 .contact-info .contact-card .left i{
     font-size: 3rem;
     padding-right: 2rem;
-    color: #2fa30c;
+    /* color: #2fa30c; */
+    color: #f8a31c;
     transition: all 0.2s ease;
 }
 .contact-info .contact-card .left i:hover{
@@ -216,7 +222,8 @@ nav {
 }
 
 .contact-info .contact-box{
-    background-color: #2fa30c;
+    /* background-color: #2fa30c; */
+    background-color: #f8a31c;
     width: 30%;
     position: absolute;
     right: 0;
@@ -291,11 +298,12 @@ nav {
 }
 .about-us .about-content{
     width: 48%;
+    overflow: hidden;
 }
 .about-us .about-content h5{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    background-image: linear-gradient(transparent, transparent, rgb(143, 255, 143));
+    background-image: linear-gradient(transparent, transparent, rgb(255, 210, 143));
     width: fit-content;
     padding: 0.3rem 1rem;
     border-radius: 7px;
@@ -317,7 +325,7 @@ nav {
 .about-us .about-content .ceo-text{
     background-color: #f2f2f2d6;
     padding: 1.5rem 3rem;
-    border-left: 7px solid #2fa30c;
+    border-left: 7px solid #f8a31c;
     border-radius: 12px;
     margin-top: 2rem;
 }
@@ -331,7 +339,398 @@ nav {
     margin-top: 1rem;
 }
 .about-us .about-content .ceo-text #ceo span{
-    color: #2fa30c;
+    color: #f8a31c;
     font-weight: 600;
 }
+.about-us .about-content .about-content-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.about-us .about-content .content-foot-left{
+    width: 50%;
+}
+.about-us .about-content .content-foot-left p{
+    font-weight: 500;
+    margin: 0;
+    margin-top: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+.about-us .about-content .content-foot-left p i{
+    margin-right: 0.5rem;
+    color: #ec9100;
+}
+.about-us .about-content .content-foot-left button{
+    background-color: #f89901;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.3rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.2s ease;
+}
+.about-us .about-content .content-foot-left button:hover{
+    background-color: #ffa81d;
+    transform: translateY(-4px);
+}
+.about-us .about-content .content-foot-right{
+    width: 48%;
+}
+.about-us .about-content .content-foot-right img{
+    border-radius: 10px;
+    width: 80%;
+    float: right;
+}
 /* About Us Section Ends Here */
+
+
+/* Why Choose Us Section Starts Here */
+.choose-us{
+  display: flex;
+  overflow: hidden;
+  padding: 1rem 0 5rem 0;
+  position: relative;
+}
+.choose-us-left{
+  width: 50%;
+  background-color: #000620;
+  padding: 4rem 3rem 0 7%;
+  border-top-right-radius: 2rem;
+}
+.choose-us-left h5{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(transparent, rgb(255, 123, 7));
+  color: #fff;
+  width: fit-content;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.choose-us-left h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 2.3rem;
+  margin-top: 2rem;
+}
+.choose-us-left p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #c1c1c1;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+.choose-us-left .card-row{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+.choose-us-left .card-row .card{
+  width: 45%;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 0;
+}
+.choose-us-left .card-row .card .icon-img{
+  background-color: #fff;
+  padding: 0.8rem;
+  width: fit-content;
+  border-radius: 7px;
+  transition: all 0.2s ease;
+}
+.choose-us-left .card-row .card .icon-img:hover{
+  transform: translatex(5px);
+}
+.choose-us-left .card-row .card .icon-img img{
+  width: 3rem;
+  object-fit: contain;
+}
+.choose-us-left .card-row .card h2{
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.choose-us-left .card-row .card p{
+  font-size: 1rem;
+  color: #c5c5c5;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.choose-us-right{
+  width: 50%;
+}
+.choose-us-right .right-image{
+  padding: 4rem 0 0 0;
+  position: relative;
+  top: 4rem;
+}
+.choose-us-right img{
+  width: 100%;
+  border-bottom-left-radius: 2rem;
+  /* object-fit: cover; */
+}
+/* Why Choose Us Section Ends Here */
+
+
+/* Our Services Section Starts Here */
+.services{
+  padding: 4rem 0;
+}
+.services h5{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(transparent, transparent, rgb(255, 123, 7));
+  color: #000;
+  width: fit-content;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.services .service-head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.services .service-head .services-para{
+  width: 40%;
+}
+.services .service-head h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.services .service-head p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #646464;
+}
+.services .service-head .services-btn{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.services .service-head .services-btn button{
+  background-color: #ec9100;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.services .service-head .services-btn button:hover{
+  background-color: #ff9d00;
+  transform: translateY(-4px);
+}
+.services .service-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.services .service-cards .card{
+  width: 27%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  overflow: hidden;
+}
+.services .service-cards .card img{
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.services .service-cards .card img:hover{
+  scale: 1.02;
+}
+.services .service-cards .card .card-desc{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+.services .service-cards .card .card-desc .card-left{
+  width: 20%;
+}
+.services .service-cards .card .card-left img{
+  width: 80%;
+}
+.services .service-cards .card .card-left img:hover{
+  scale: 1;
+}
+
+.services .service-cards .card .card-desc .card-right{
+  width: 79%;
+}
+.services .service-cards .card .card-desc .card-right h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.services .service-cards .card .card-desc .card-right p{
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  margin-bottom: 2rem;
+  color: #646464;
+}
+.services .service-cards .card .card-desc .card-right a{
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #f89901;
+  transition: all 0.2s ease;
+}
+.services .service-cards .card .card-desc .card-right a:hover{
+  color: #db7500;
+}
+
+/* Our Services Section Ends Here */
+
+
+/* Our Blog Section Starts Here */
+.blog{
+  padding: 4rem 0;
+  /* overflow: hidden; */
+}
+.blog .blog-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog h5{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(transparent, transparent, rgb(255, 123, 7));
+  color: #000;
+  width: fit-content;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.blog h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.blog p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #676767;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  width: 50%;
+  text-align: center;
+}
+.blog-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+.blog-cards .blog-card{
+  border: none;
+  width: 32%;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.blog-cards .blog-card .img-div{
+  height: 19rem;
+  overflow: hidden;
+}
+.blog-cards .blog-card .img-div img{
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.blog-cards .blog-card .card-desc{
+  padding: 0 1rem 1.5rem 1rem;
+}
+.blog-cards .blog-card h6{
+  font-family: "Montserrat", sans-serif;
+  color: #4a4a4a;
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+.blog-cards .blog-card h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.blog-cards .blog-card p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #707070;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.blog-cards .blog-card a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #ec9100;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.blog-cards .blog-card a:hover{
+  color: #db8700;
+}
+/* Our Blog Section Ends Here */
+
+
+/* Back to Top Section */
+.back-to-top{
+  position: fixed;
+  right: 1.3rem;
+  bottom: -5rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+.back-to-top.show {
+  bottom: 1.1rem;
+}
+.back-to-top i{
+  color: #fff;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  background-color: #ff8400;
+  width: 2rem;
+  height: 2rem;
+  padding-top: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 0.442) 0px 3px 8px;
+  transition: all 0.2s ease-in-out;
+}
+.back-to-top i:hover{
+  background-color: #ffa628;
+}
+/* Back to Top Section */
+
+
